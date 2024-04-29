@@ -6,7 +6,7 @@ export default class Home extends Component {
     return (
       <View>
         <Text>Este es nuevo componente</Text>
-      </View>
+      </View> 
     )
   }
 }

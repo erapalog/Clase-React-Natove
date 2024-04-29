@@ -25,6 +25,7 @@ export class App extends Component {
       age: 30,
       dogs: false
     }
+    
 
     const getFullName = (firstName: string,secondName: string,thirdName: string) => {
       return firstName + ' ' + secondName + ' ' + thirdName;
@@ -54,7 +55,7 @@ export class App extends Component {
       <Text>Variable boolean {PersonObject.dogs?.valueOf()}</Text>
 
       <Text>Llamando una funcion {getFullName('Rum', 'Tum', 'Tugger')}!</Text>
-      <Home> usar este sin nada</Home>
+      <Home> usar este sin nada</Home> 
 
       <Persona firstName="Eirck" secondName="Roberto" age={3}></Persona>
       <Persona {...{firstName:"Eirck",secondName:"Roberto",age:3}}></Persona>
